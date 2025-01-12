@@ -30,7 +30,7 @@ body {
     url("./images/menua_main.jpg");
   background-repeat: no-repeat;
   background-color: #000;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
