@@ -24,14 +24,14 @@ html {
 }
 body {
   font-family: "Armenia";
-  color: #fff;
+  color: #ffffff;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.208), rgba(0, 0, 0, 0.559)),
-    url("./images/b825ec03ed690671fbfaea0224154d32.jpg");
-  background-repeat: no-repeat;
+    url("./images/sage-green-color-solid-background-1920x1080.png");
+    background-repeat: no-repeat;
   /* background-color: #000; */
   background-size: cover;
-  background-position: center;
+  background-position:center;
   background-attachment: fixed;
   text-align: center;
   padding: 0 30px;
