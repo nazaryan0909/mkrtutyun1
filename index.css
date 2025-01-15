@@ -31,7 +31,7 @@ body {
   background-repeat: no-repeat;
   /* background-color: #000; */
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
   text-align: center;
   padding: 0 30px;
