@@ -29,7 +29,7 @@ body {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.208), rgba(0, 0, 0, 0.559)),
     url("./images/sage-green-color-solid-background-1920x1080.png");
     background-repeat: no-repeat; */
-  background-color: #598556;
+  background-color: lightblue;
   background-size: cover;
   background-position:center;
   background-attachment: fixed;
