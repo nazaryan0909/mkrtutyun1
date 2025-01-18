@@ -29,7 +29,7 @@ body {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.208), rgba(0, 0, 0, 0.559)),
     url("./images/sage-green-color-solid-background-1920x1080.png");
     background-repeat: no-repeat; */
-  background-color: #406844;
+  background-color: #598556;
   background-size: cover;
   background-position:center;
   background-attachment: fixed;
@@ -174,7 +174,7 @@ section {
 @media screen and (min-width: 1300px) {
   body {
     background-size: 70%;
-    background-color: #5d91598e;
+    /* background-color: #598556; */
   }
 }
 @media screen and (max-width: 950px) {
@@ -194,5 +194,15 @@ section {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  margin-top: 20px;
+  object-fit: cover;
+}
+
+.babyFrame{
+height: 310px;
+width: 310px;
+border-radius: 50%;
+border: 5px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
 }
