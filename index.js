@@ -39,3 +39,20 @@ const interval = setInterval(() => {
       clearInterval(interval);
     }
   }, 1000);
+
+
+  const playButton = document.getElementById('playButton'); 
+const audioPlayer = document.getElementById('audioPlayer'); 
+ 
+let isPlaying = false; 
+ 
+playButton.addEventListener('click', () => { 
+    if (isPlaying) { 
+        audioPlayer.pause(); 
+        playButton.innerHTML = '<i class="fa-solid fa-play"></i>';  
+    } else { 
+        audioPlayer.play(); 
+        playButton.innerHTML = '<i class="fa-solid fa-pause"></i>';  
+    } 
+    isPlaying = !isPlaying; 
+});

@@ -206,3 +206,35 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+
+
+.play-button-container { 
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 10px; 
+} 
+ 
+.play-button { 
+  background-color: #ffffff; /* Ոսկեգույն կոճակ */ 
+  border: none; 
+  border-radius: 50%; 
+  width: 50px; 
+  height: 50px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  cursor: pointer; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+} 
+ 
+.play-button:hover { 
+  background-color: #119c9a;  
+  transform: scale(1.1);  
+} 
+ 
+.play-button i { 
+  color: rgb(0, 0, 0); 
+  font-size: 20px; 
+}
