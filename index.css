@@ -12,15 +12,15 @@ html {
 }
 @font-face {
   font-family: "Armenia";
-  src: url(./font/BraindAmanor.otf);
+  src: url(./);
 }
 @font-face {
   font-family: "Armenia2";
-  src: url(./font/ArTarumianBarakU-Regular.ttf);
+  src: url(./);
 }
 @font-face {
   font-family: "Armenia3";
-  src: url(./font/ArmeniapediaJhapaven.ttf);
+  src: url(./);
 }
 body {
   font-family: "Armenia";
@@ -29,7 +29,7 @@ body {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.208), rgba(0, 0, 0, 0.559)),
     url("./images/sage-green-color-solid-background-1920x1080.png");
     background-repeat: no-repeat; */
-  background-color: rgb(127, 193, 216);
+  background-color: rgb(92, 158, 115);
   background-size: cover;
   background-position:center;
   background-attachment: fixed;
@@ -38,7 +38,7 @@ body {
 }
 
 .header {
-  padding: 50px 20px;
+  padding: 190px 20px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -171,70 +171,4 @@ section {
 }
 
 
-@media screen and (min-width: 1300px) {
-  body {
-    background-size: 70%;
-    /* background-color: #598556; */
-  }
-}
-@media screen and (max-width: 950px) {
-  .header {
-    justify-content: flex-start;
-    gap: 20px;
-  }
-}
 
-.babyPhotoContainer{
-  display: flex;
-  margin-top: 50px;
-  justify-content: center;
-}
-
-.babyPhoto{
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.babyFrame{
-height: 310px;
-width: 310px;
-border-radius: 50%;
-border: 5px solid white;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-
-
-.play-button-container { 
-  display: flex; 
-  justify-content: center; 
-  margin-bottom: 10px; 
-} 
- 
-.play-button { 
-  background-color: #ffffff; /* Ոսկեգույն կոճակ */ 
-  border: none; 
-  border-radius: 50%; 
-  width: 50px; 
-  height: 50px; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  cursor: pointer; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  transition: background-color 0.3s ease, transform 0.2s ease; 
-} 
- 
-.play-button:hover { 
-  background-color: #119c9a;  
-  transform: scale(1.1);  
-} 
- 
-.play-button i { 
-  color: rgb(0, 0, 0); 
-  font-size: 20px; 
-}
